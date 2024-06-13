@@ -13,7 +13,7 @@ git clone https://github.com/isaul19/audiophile.git
 Entrar al directorio clonado
 
 ```
-cd audiophile
+cd ./audiophile
 ```
 
 ## Proceso trabajo
