@@ -16,7 +16,7 @@ Entrar al directorio clonado
 cd ./audiophile
 ```
 
-## Proceso trabajo
+## Crear y gestionar ramas en git
 
 Crear una rama
 
@@ -29,6 +29,14 @@ Ingresar a la rama
 ```
 git switch $nombreDeRama
 ```
+
+Enviar rama al repositorio remoto
+
+```
+git push --set-upstream origin $nombreDeRama
+```
+
+## Proceso trabajo
 
 Obtener cambios
 
