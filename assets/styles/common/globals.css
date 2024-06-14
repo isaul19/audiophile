@@ -52,8 +52,29 @@ h6 {
   height: 4.8rem;
   background-color: var(--color-pumpkin);
   color: var(--color-white);
-  padding: 15 30;
+  padding: 1.5rem 3rem;
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.btn-pumpkin:hover {
+  background-color: var(--color-peach);
+}
+
+.btn-outline {
+  width: 16rem;
+  height: 4.8rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+  padding: 1.5rem 3rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-outline:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
