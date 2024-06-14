@@ -47,6 +47,12 @@ h6 {
   letter-spacing: 1.286px;
 }
 
+.container {
+  max-width: 111rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
 .btn-pumpkin {
   background-color: var(--color-pumpkin);
   color: var(--color-white);
