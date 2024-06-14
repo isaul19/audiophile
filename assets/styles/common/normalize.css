@@ -17,12 +17,6 @@ body,
   height: 100%;
 }
 
-body {
-  font-size: 1.6rem;
-  font-family: "Segoe UI", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-}
-
 input,
 button,
 textarea,

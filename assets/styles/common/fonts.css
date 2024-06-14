@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "monrope";
+  src: url("../../fonts/monrope/200.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "monrope";
+  src: url("../../fonts/monrope/300.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "monrope";
+  src: url("../../fonts/monrope/400.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "monrope";
+  src: url("../../fonts/monrope/500.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "monrope";
+  src: url("../../fonts/monrope/600.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "monrope";
+  src: url("../../fonts/monrope/700.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "monrope";
+  src: url("../../fonts/monrope/800.ttf");
+  font-weight: 800;
+}

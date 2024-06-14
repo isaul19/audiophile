@@ -1,3 +1,11 @@
 :root {
-  --numero-uno: 1;
+  --color-pumpkin: #d87d4a;
+  --color-jet: #101010;
+  --color-seashell: #f1f1f1;
+  --color-snow: #fafafa;
+  --color-peach: #fbaf85;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --font-monrope: "monrope";
 }

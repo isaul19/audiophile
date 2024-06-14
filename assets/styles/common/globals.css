@@ -1,0 +1,48 @@
+body {
+  font-family: var(--font-manrope);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 5.8rem;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.4rem;
+  letter-spacing: 1.429px;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  letter-spacing: 1.143px;
+}
+
+h4 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.714px;
+}
+
+h6 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.286px;
+}
