@@ -15,6 +15,45 @@ PAGE STYLES
 =======================================
 */
 
-body {
-  background-color: var(--color-rojo);
+.container {
+  max-width: 111rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*
+=======================================
+NAVIGATION SECTION
+=======================================
+*/
+
+.header {
+  background-color: var(--color-jet);
+}
+
+.navigation {
+  display: flex;
+  color: var(--color-white);
+  justify-content: space-between;
+  padding: 3.5rem 0;
+  font-size: 1.3rem;
+  box-shadow: 0 1px 0 0 red;
+}
+
+.navigation__logo {
+  width: 14rem;
+  height: 2.5rem;
+}
+
+.navigation__items {
+  display: flex;
+  gap: 3.4rem;
+  list-style: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navigation__cart {
+  width: 2.3rem;
+  height: 2rem;
 }
