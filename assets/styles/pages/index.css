@@ -23,14 +23,17 @@ NAVIGATION SECTION
 
 .header {
   background-color: var(--color-jet);
+  color: var(--color-white);
 }
 
 .navigation {
   display: flex;
-  color: var(--color-white);
   justify-content: space-between;
   padding: 3.5rem 0;
   font-size: 1.3rem;
+  border-bottom: 0.2rem solid var(--color-gray-20);
+  position: relative;
+  z-index: 2;
 }
 
 .navigation__logo {
@@ -49,4 +52,60 @@ NAVIGATION SECTION
 .navigation__cart {
   width: 2.3rem;
   height: 2rem;
+}
+
+/*
+=======================================
+HERO SECTION
+=======================================
+*/
+
+.hero {
+  background-color: var(--color-jet);
+  color: var(--color-white);
+  height: 63rem;
+}
+
+.hero__container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero__text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.hero__info {
+  font-size: 1.4rem;
+  letter-spacing: 10px;
+  opacity: 0.4;
+}
+
+.hero__title {
+  margin-top: 2.4rem;
+  text-transform: uppercase;
+}
+
+.hero__paragraph {
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+  max-width: 35rem;
+}
+
+.hero__btn {
+  margin-top: 4rem;
+}
+
+.hero__img-box {
+  position: relative;
+}
+
+.hero__img-box img {
+  position: absolute;
+  z-index: 1;
+  transform: scale(1.2);
 }

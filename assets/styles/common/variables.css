@@ -1,11 +1,13 @@
 :root {
   --color-pumpkin: #d87d4a;
-  --color-jet: #101010;
+  --color-jet: #141414;
   --color-seashell: #f1f1f1;
   --color-snow: #fafafa;
   --color-peach: #fbaf85;
   --color-white: #ffffff;
   --color-black: #000000;
+  --color-gray: #979797;
+  --color-gray-20: #97979720;
 
   --font-monrope: "monrope";
 }
