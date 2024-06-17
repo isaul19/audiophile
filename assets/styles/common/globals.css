@@ -82,3 +82,26 @@ h6 {
   background-color: var(--color-black);
   color: var(--color-white);
 }
+
+.btn-arrow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-black);
+  opacity: 0.5;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  stroke: var(--color-black);
+  transition: color 0.3s;
+}
+
+.btn-arrow::after {
+  content: url("../../media/icons/arrow.svg");
+  display: block;
+  transform: translateY(7%);
+}
+
+.btn-arrow:hover {
+  color: var(--color-pumpkin);
+}
