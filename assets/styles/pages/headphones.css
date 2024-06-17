@@ -50,7 +50,6 @@ NAVIGATION SECTION
   width: 2.3rem;
   height: 2rem;
 }
-
 /*
 =======================================
 HEADPHONES SECTION
@@ -112,4 +111,9 @@ HERO SECTION
   background-color: var(--color-seashell);
   border-radius: 0.8rem;
   padding: 6.6rem 9.6rem 10.8rem 9.6rem;
+}
+
+.hero-img-box img {
+  width: 29.6rem;
+  height: 36.5rem;
 }
