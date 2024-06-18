@@ -31,9 +31,12 @@ NAVIGATION SECTION
   justify-content: space-between;
   padding: 3.5rem 0;
   font-size: 1.3rem;
-  border-bottom: 0.2rem solid var(--color-gray-20);
   position: relative;
   z-index: 2;
+}
+
+.navigation--border {
+  border-bottom: 0.2rem solid var(--color-gray-20);
 }
 
 .navigation__logo {
@@ -152,4 +155,45 @@ OTHER PRODUCTS SECTION
 .other-product__btn {
   margin: 0 auto;
   margin-top: 1.5rem;
+}
+
+/*
+=======================================
+FOOTER SECTION
+=======================================
+*/
+
+.footer {
+  margin-top: 20rem;
+  background-color: var(--color-jet);
+  color: var(--color-white);
+  padding-top: 3rem;
+  padding-bottom: 4.8rem;
+}
+
+.footer__information {
+  display: flex;
+}
+
+.footer__information-content {
+  max-width: 54rem;
+  opacity: 0.5;
+}
+
+.footer__social {
+  margin-top: 3.6rem;
+  align-self: flex-end;
+  margin-left: auto;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.footer__social img {
+  width: 2rem;
+  cursor: pointer;
+}
+
+.footer__copyrigth {
+  margin-top: 5.6rem;
+  opacity: 0.5;
 }
